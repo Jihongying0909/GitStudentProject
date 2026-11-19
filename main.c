@@ -18,13 +18,25 @@ int main(void)
         return 1;
     }
 
-    if (score >= 60)
+    if (score >= 90)
     {
-        printf("Pass\n");
+        printf("Grade: A\n");
+    }
+    else if (score >= 80)
+    {
+        printf("Grade: B\n");
+    }
+    else if (score >= 70)
+    {
+        printf("Grade: C\n");
+    }
+    else if (score >= 60)
+    {
+        printf("Grade: D\n");
     }
     else
     {
-        printf("Fail\n");
+        printf("Grade: F\n");
     }
 
     return 0;
