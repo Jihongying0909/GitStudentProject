@@ -2,5 +2,5 @@
 
 void showProjectMessage(void)
 {
-    printf("Message modified by Jihongying0909.\n");
+    printf("Message jointly completed by Jihongying0909 and jihongying0909-ops.\n");
 }
