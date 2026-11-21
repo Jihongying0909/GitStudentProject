@@ -2,5 +2,5 @@
 
 void showProjectMessage(void)
 {
-    printf("Initial team message.\n");
+    printf("Message modified by Jihongying0909.\n");
 }
